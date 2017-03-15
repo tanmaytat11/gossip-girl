@@ -8,6 +8,7 @@ import './gossip.js';
 import './body.html';
  
 Template.body.helpers({
+  // return all gossips of the users the user has subscribed to
   gossips() {
     var ag = Gossips.find({}, {sort: {createdAt: -1}}).fetch();
     var res = [];
@@ -24,6 +25,10 @@ Template.body.helpers({
     return res;
   },
   users() {
+    /*
+      return all users except the current user looged in
+      and also check the users if they are already subscribed or not by the current user
+    */
     var au = Meteor.users.find({}).fetch();
     var res = [];
     if (Subs.find({userId: Meteor.user()._id}).count()) {

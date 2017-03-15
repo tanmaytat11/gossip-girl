@@ -7,7 +7,7 @@ Gossip Girl is an application powered by [MeteorJS](https://www.meteor.com/) tha
 
 Write Up:
 -------------
-I started the assignment by first discussing the problem with my friend. He advised me use the concepts of socket and build the application. I started exploring sockets and how to tie the application together. While exploring, I remembered that I made a simple To-do List app using MeteorJS which followed the auto reload "hot code push" technology so I shifted my focus to MeteorJS and started building the app. I created 2 databases (users database was auto created by the accounts package of meteor), one for the gossips and the other holding the information that how many users was a user subscribed to ie one to many relationship. All the databases were connected via the id field of the users database. Using a combination of the MongoDB queries I was able to complete the assignment.
+I started the assignment by first discussing the problem with my friend. He advised me use the concepts of socket and build the application. I started exploring sockets and how to tie the application together. While exploring, I remembered that I made a simple To-do List app using MeteorJS which followed the auto reload "hot code push" technology so I shifted my focus to MeteorJS and started building the app. I created 2 collections (users collection was auto created by the accounts package of meteor), one for the gossips and the other holding the information that how many users was a user subscribed to ie one to many relationship. All the databases were connected via the id field of the users database. Using a combination of the MongoDB queries I was able to complete the assignment.
 
 Usage Manual:
 -------------
@@ -48,13 +48,14 @@ Go ahead create user accounts, subscribe to other users for interesting gossips 
 **See the YouTube video for detailed explanation.**
 [https://youtu.be/wMD-pglgeKE](https://youtu.be/wMD-pglgeKE)
 
-References:
+Resources & References:
 -------------
 1) [Rishabh Saxena](https://github.com/rishabhs95): For helping me out and pointing me in the right direction.
 2) [karlseguin/the-little-mongodb-book](https://github.com/karlseguin/the-little-mongodb-book): For all my MongoDB related queries.
 3) [Meteor Tutorials](https://www.meteor.com/tutorials): I learned about Meteor following these tutorials.
 4) [Saurav Tiru](https://github.com/AnonyXcali): For testing out the application and his valuable feedback.
 5) [Gautham Elango's Article](https://medium.com/@gge/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a#.wqzam3i1b): Tutorial on how to deploy Meteor app to Heroku.
-
+6) [Heroku](http://heroku.com/): For deploying the application.
+7) [mLab](https://mlab.com/): For hosting MongoDB.
 
 > Written with [StackEdit](https://stackedit.io/).

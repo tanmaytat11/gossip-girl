@@ -3,7 +3,7 @@
 **Gossip Girl**
 ===========
 
-Gossip Girl is an application powered by [MeteorJS](https://www.meteor.com/) that notify its users about the gossips of other users in real-time. A user can subscribe to many users whose gossips the user is interested in. The application updates itself with the new content automatically so as to keep the real-time notifications coming without delay. It is "hot code push" technology of Meteor that makes this happen.
+Gossip Girl is an application powered by [MeteorJS](https://www.meteor.com/) that notify its users about the gossips of other users in real-time. A user can subscribe to many users whose gossips the user is interested in. The application updates itself with the new content automatically so as to keep the real-time notifications coming without delay. It is "hot code push" technology of Meteor that makes this happen. Check out the apllication on [https://gossipgirl-sc.herokuapp.com/](https://gossipgirl-sc.herokuapp.com/).
 
 Write Up:
 -------------
@@ -54,6 +54,7 @@ References:
 2) [karlseguin/the-little-mongodb-book](https://github.com/karlseguin/the-little-mongodb-book): For all my MongoDB related queries.
 3) [Meteor Tutorials](https://www.meteor.com/tutorials): I learned about Meteor following these tutorials.
 4) [Saurav Tiru](https://github.com/AnonyXcali): For testing out the application and his valuable feedback.
+5) [Gautham Elango's Article](https://medium.com/@gge/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a#.wqzam3i1b): Tutorial on how to deploy Meteor app to Heroku.
 
 
 > Written with [StackEdit](https://stackedit.io/).

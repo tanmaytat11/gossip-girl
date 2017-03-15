@@ -1,0 +1,31 @@
+<body>
+  <div class="container">
+    <header>
+      <h1>Gossip Girl</h1>
+
+      {{> loginButtons}}
+  
+      {{#if currentUser}}
+        <br>
+        Subscribe To:
+        {{#each users}}
+          {{> user}}
+        {{/each}}
+      {{/if}}
+
+      {{#if currentUser}}
+        <form class="new-task">
+          <input type="text" name="text" placeholder="Spread a Gossip!" />
+        </form>
+      {{/if}}
+    </header>
+ 
+    <ul>
+      {{#if currentUser}}
+        {{#each gossips}}
+          {{> gossip}}
+        {{/each}}
+      {{/if}}
+    </ul>
+  </div>
+</body>
